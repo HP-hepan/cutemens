@@ -5,26 +5,26 @@ int main()
 	int a, b, c;
 	scanf("%d %d %d", &a, &b, &c);
 
-	int max = 0;
+	int d = 0;
 
 	if (a > b) {
 		if (a > c) {
 			max = a;
 		}
 		else {
-			max = c;
+			d = c;
 		}
 	}
 	else {
 		if (b > c) {
-			max = b;
+			d = b;
 		}
 		else {
-			max = c;
+			d = c;
 		}
 	}
 
-	printf("%d", max);
+	printf("%d", d);
 
 	return 0;
 }
